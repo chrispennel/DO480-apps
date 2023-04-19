@@ -3,9 +3,9 @@ kind: PersistentVolumeClaim
 metadata:
   name: mysql-pv-claim
 spec:
-  accessMode:
+  accessModes:
   - ReadWriteOnce
   resources:
     requests:
-      storate: 5Mi
-  storageClassNames: nfs-storage
+      storage: 5Mi
+  storageClassName: nfs-storage
