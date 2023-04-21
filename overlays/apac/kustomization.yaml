@@ -4,7 +4,7 @@ kind: Kustomization
 bases:
 - ../../base
 nameSuffix:
- apac
+ -apac
 
 images:
 - name: mysql
